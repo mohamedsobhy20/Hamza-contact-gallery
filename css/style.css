@@ -1,0 +1,62 @@
+/*
+*Partials
+*/
+@import url("https://fonts.googleapis.com/css?family=Mukta");
+@import url("https://fonts.googleapis.com/css?family=Asap+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+/*
+*Components
+*/
+.container {
+  padding: 0; }
+
+header {
+  margin: 50px 0px; }
+  header h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Lato", sans-serif; }
+
+.form-row {
+  margin: 0 0 50px 0; }
+  .form-row .form-sector {
+    width: 30%;
+    margin-left: 3%; }
+    .form-row .form-sector:first-child {
+      margin-left: 2%; }
+    .form-row .form-sector label {
+      text-transform: capitalize;
+      font-family: "Lato", sans-serif; }
+    .form-row .form-sector .add-contact-input {
+      border: 1px solid black;
+      font-family: "Lato", sans-serif; }
+    .form-row .form-sector input[type=number]::-webkit-inner-spin-button,
+    .form-row .form-sector input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0; }
+  .form-row .add-contact-btn {
+    margin: 35px auto 0;
+    outline: 0;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+    font-size: 17px; }
+    .form-row .add-contact-btn:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 80px #888888; }
+
+.contacts-table th {
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize; }
+.contacts-table td {
+  padding: 13px 0 14px 20px; }
+.contacts-table tbody .contact-name {
+  text-transform: capitalize; }
+.contacts-table tbody .btn-info {
+  margin-right: 5%; }
+.contacts-table tbody .btn:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
